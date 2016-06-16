@@ -1,0 +1,14 @@
+var config = {};
+
+config.solr = {};
+config.kafka = {};
+
+config.solr.host = 'localhost';
+config.solr.port = 8983;
+config.solr.core = 'meetup_rsvp';
+config.solr.solrVersion = 5;
+
+config.kafka.zookeeper_url = 'localhost:2181';
+
+
+module.exports = config;
